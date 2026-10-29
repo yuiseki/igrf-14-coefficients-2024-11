@@ -1,0 +1,21 @@
+[project]
+name = "igrf-14-coefficients-2024-11"
+version = "0.1.0"
+description = "Frozen copy of the IGRF-14 spherical harmonic coefficients (IAGA, via NOAA NCEI) with a tidy Parquet table"
+requires-python = ">=3.12"
+dependencies = ["huggingface-hub>=2.2.0", "pyarrow>=26.0.0", "numpy>=2.0"]
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.16.9", "ppigrf>=2.1.0", "duckdb>=1.5.5"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
