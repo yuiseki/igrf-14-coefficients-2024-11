@@ -1,0 +1,42 @@
+{
+ "repo": "yuiseki/igrf-14-coefficients-2024-11",
+ "revision": "011ed3b632f57a3588847af7f38ab843b1f0afa6",
+ "files_checked": 9,
+ "rows": 5265,
+ "schema": [
+  "kind:string",
+  "n:int8",
+  "m:int8",
+  "epoch_label:string",
+  "epoch_year:double",
+  "series:string",
+  "value:double",
+  "unit:string"
+ ],
+ "value_counts": {
+  "kind": {
+   "g": 2808,
+   "h": 2457
+  },
+  "series": {
+   "DGRF": 3120,
+   "IGRF": 1950,
+   "SV": 195
+  },
+  "unit": {
+   "nT": 5070,
+   "nT/yr": 195
+  }
+ },
+ "nulls": {
+  "kind": 0,
+  "n": 0,
+  "m": 0,
+  "epoch_label": 0,
+  "epoch_year": 195,
+  "series": 0,
+  "value": 0,
+  "unit": 0
+ },
+ "problems": []
+}

@@ -1,0 +1,15 @@
+{
+ "repo": "yuiseki/igrf-14-coefficients-2024-11",
+ "revision": "011ed3b632f57a3588847af7f38ab843b1f0afa6",
+ "sha256": {
+  "README.md": "0eb0ff86d632f1a0bd2d32f02b666877117c27b8a7188b6336daaa27a9a18a62",
+  "LICENSE": "1bfcff0e60041e5f605ee568946ab536bbb458f33488b91d536e82dac5a4b9fc",
+  "provenance.yaml": "1129138430c417f4b2811935f7ed52b3d8fa49fb688209784b8e35c9918acef1",
+  "raw/20241118/igrf14coeffs.txt": "8f8d88403028fc4ee92c4f38d97b46e0a87e2cfc496045b43c9e26c1d6b0903c",
+  "raw/20241118/MANIFEST.json": "fec87395fa778b53a4e42121933130da33f189edbe7f9d7feb1d16be8b709861",
+  "parquet/coefficients.parquet": "349b01bf361bbdfb85357061f1cc1354584d42b12833bff84e9c0e5ecdda9f51",
+  "parquet/tables.json": "dd35718f6f82b62fcb124f39c588c4738242bd84d4bc8a2727880c57d8cc0301",
+  "evidence/ncei_igrf_product_page.html": "6737d8c1eea7283b94f43dfce7f5da4ad32a5462f7db6c9d2f7cf22eabfa9b62",
+  "docs/verify_local.json": "7085fbe155abb7490a0271699c6e15ea534aaf92040070fa67b369aafecb734b"
+ }
+}
